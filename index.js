@@ -2,3 +2,7 @@
 const returnFirstTwoDrivers = function (collection) {
   return collection.slice(0,2)
 }
+
+const returnLastTwoDrivers = function (collection) {
+  return collection.reverse.slice(0,2)
+}
