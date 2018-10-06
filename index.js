@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function returnFirstTwoDrivers(collection) {
+const firstTwo = function returnFirstTwoDrivers(collection) {
   return collection.slice(0,2)
 }
 
