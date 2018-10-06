@@ -4,5 +4,5 @@ const returnFirstTwoDrivers = function (collection) {
 }
 
 const returnLastTwoDrivers = function (collection) {
-  return collection.reverse.slice(0,2)
+  return collection.reverse().slice(0,2)
 }
