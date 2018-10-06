@@ -1,10 +1,10 @@
 // Code your solution in this file!
-const returnFirstTwo = function returnFirstTwoDrivers() {
+const returnFirstTwoDrivers = function () {
 
 
 }
 
-function returnLastTwoDrivers() {
+const returnfunction returnLastTwoDrivers() {
 
 }
 
