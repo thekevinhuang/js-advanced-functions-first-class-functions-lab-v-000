@@ -4,5 +4,5 @@ const returnFirstTwoDrivers = function (collection) {
 }
 
 const returnLastTwoDrivers = function (collection) {
-  return collection.slice(collection.length-)
+  return collection.slice(collection.length-1)
 }
