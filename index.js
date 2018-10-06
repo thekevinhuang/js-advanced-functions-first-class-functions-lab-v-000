@@ -8,3 +8,9 @@ const returnLastTwoDrivers = function (collection) {
 }
 
 let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers] 
+
+function createFareMultiplier(multi) {
+  return function (fare) {
+    return fare*multi
+  }
+} 
