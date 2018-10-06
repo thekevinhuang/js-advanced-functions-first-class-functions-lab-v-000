@@ -7,12 +7,14 @@ const returnLastTwoDrivers = function (collection) {
   return collection.slice(collection.length-2)
 }
 
-let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers] 
+let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
 function createFareMultiplier(multi) {
   return function (fare) {
     return fare*multi
   }
-} 
+}
 
 const fareDoubler = createFareMultiplier(2)
+
+const fareTripler = createFareMultiplier(3)
